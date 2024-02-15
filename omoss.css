@@ -1,0 +1,143 @@
+body {
+	font-family: 'Cardo', sans-serif;
+	margin: 0;
+	padding: 0;
+	background-image: url('kitche.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: #fff;
+}
+header {
+	background-color: rgba(51, 51, 51, 0);
+	color: #fff;
+	padding: 5% 1%;
+	text-align: center;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 150%;
+}
+nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around; 
+	padding: 0.5rem 1rem;
+	text-align: center;
+	width: 70%;
+}
+nav:not(:last-child) {
+	margin-right: 40%; 
+	margin-left: 40%;
+}
+.button-container {
+	flex-basis: 15%; 
+	margin-bottom: 5%;
+	position: relative;
+	margin-top: -6%;
+}
+.button {
+	text-decoration: none;
+	text-size-adjust: auto;
+	color: #333;
+	font-weight: bold;
+	background-color: #fff;
+	padding: 1.5rem 1rem;
+	display: block;
+	border: 2px solid #333;
+	border-radius: 2rem;
+}
+.top-left {
+	font-size: 2vw;
+	font-weight: bold;
+	position: absolute;
+	top: 5%; 
+	left: 5%; 
+	color: #fff;
+}
+.top-right {
+	font-size:1.5vw;
+	font-weight: bold;
+	position: absolute;
+	top: 5%; 
+	right: 5%; 
+	color: #fff;
+}
+.rectangle {
+	float: left;
+	width: 30%; 
+	height: 60%; 
+	background-color: #f0f0f0; 
+	border: 2px solid #333; 
+	padding: 5%;
+	box-sizing: border-box; 
+	text-align: left;
+	color: #333;
+	line-height: 1.5; 
+	margin-top: -5%; 
+	margin-left: 20%;
+}
+#img1{
+	width: 20%;
+	float: left; 
+	margin-left: 55%;
+	margin-top: -15%;
+}
+#img2{
+	width: 11%;
+	float: left; 
+	margin-left: 39%;
+	margin-top: -10%;
+}
+#img3{
+	width: 15%;
+	float: left; 
+	margin-left: -30%;
+	margin-top: -10%;
+}
+.formular{
+	float: right;
+	margin-top: 5%;
+	margin-right:65%;
+}
+main {
+	padding: 20px;
+}
+
+section {
+	margin-bottom: 20px;
+}
+@media only screen and (max-width: 768px){
+	.top-left{
+		font-size: 1em;
+	}
+	.top-right{
+		font-size: 0.75em;
+	}
+		
+	header{
+		font-size: 1em;
+	}
+   }
+   @media print {
+	body{
+		background-image: none;
+		color: #333;
+	}
+	header{
+		font-size: 1em;
+	}
+	header .button{
+		display: none;
+	}
+	.top-left{
+		font-size: 1.5em;
+	}
+	.top-right{
+		font-size: 0.75em;
+	}
+	#img1{
+		display: none;
+	}
+}

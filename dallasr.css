@@ -1,0 +1,102 @@
+
+body {
+	font-family: 'Cardo', sans-serif;
+	margin: 0;
+	padding: 0;
+	background-image: url('start.jpg');
+	background-size: cover;
+	background-position: top;
+	background-repeat: no-repeat;
+	color: #fff;
+    }
+    header {
+	background-color: rgba(51, 51, 51, 0);
+	color: #fff;
+	padding: 6rem 0%;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 1.5em;
+    }
+    .top-left {
+	font-size: 2em;
+	font-weight: bold;
+	position: absolute;
+	top: 5%; 
+	left: 5%;
+	color: #fff;
+    }
+    .top-right {
+	font-size: 1.5;
+	font-weight: bold;
+	position: absolute;
+	top: 5%; 
+	right: 5%;
+	color: #fff;
+    }
+    nav {
+	display: flex;
+	flex-direction: row;
+	justify-content:space-around;
+	padding: 0.75em 0.5em;
+	text-align: center;
+	margin-top: 0%;
+    }
+    nav:not(:last-child) {
+	margin-right: 20%;
+	margin-left: 20%;
+    }
+    .button-container {
+	flex-basis: 40%; 
+	margin-bottom: 3%;
+    }
+
+    .button {
+	text-decoration: none;
+	color: #333;
+	font-weight: bold;
+	font-size: 1.5em;
+	background-color: #fff;
+	padding: 1.5rem 1.5rem;
+	display: block;
+	border: 2px solid #333;
+	border-radius: 3rem;
+    }
+    
+    main {
+	padding: 10%;
+    }
+    
+    section {
+	margin-bottom: 10%;
+    }
+    @media only screen and (max-width: 768px){
+	.top-left{
+		font-size: 1em;
+	}
+	.top-right{
+		font-size: 0.75em;
+	}
+	header{
+		font-size: 1em;
+	}
+	
+    }
+    @media print {
+	body {
+		background-image: none; 
+		color: #000;
+	}
+	header{
+		font-size: 1.5em;
+		margin-top: 3rem;
+	}
+	.top-left{
+		font-size: 1em;
+	}
+	.top-right{
+		font-size:0.75em;
+	}
+	.button{
+		font-size: 2.5vw;
+	}
+    }

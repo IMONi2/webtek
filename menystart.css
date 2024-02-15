@@ -1,0 +1,115 @@
+body {
+	font-family: 'Cardo', sans-serif;
+	margin: 0;
+	padding: 0;
+	background-image: url('meny2.jpg');
+	background-size: cover;
+	background-position: top;
+	background-repeat:no-repeat;
+	color: #333;
+    }
+    header {
+	background-color: rgba(51, 51, 51, 0);
+	color: #fff;
+	padding: 5% 5%;
+	text-align: center;
+	font-weight: bolder;
+	top: 10px;
+	.menu-line {
+		border: none;
+		border-top: 7px solid #fff; 
+		width: 12%; 
+		margin: 3% auto 
+	}
+	.button-container {
+		position: absolute;
+		top: 0; 
+		left: 52%; 
+		transform: translateX(-70%);
+	}
+	.button {
+		text-decoration: none;
+		color: #333;
+		font-weight: bold;
+		background-color: #fff;
+		padding: 1rem 3rem; 
+		display: inline-block;
+		border: 5% solid #333;
+		border-radius: 80px;
+	}
+    }
+    .top-left {
+	font-size: 2em;
+	font-weight: bold;
+	position: absolute;
+	top: 5%; /* Justera toppositionen */
+	left: 5%; /* Justera vänsterpositionen */
+	color: #fff;
+    }
+    .top-right {
+	font-size: 1.5em;
+	font-weight: bold;
+	position: absolute;
+	top: 5%; /* Justera toppositionen */
+	right: 5%; /* Justera högerpositionen */
+	color: #fff;
+    }
+    nav {
+	display: flex;
+	flex-direction: row;
+	justify-content:space-around;
+	padding: 0.75rem 0.5rem;
+	text-align: center;
+    }
+    nav:not(:last-child) {
+	margin-right: 20%; /* Justera glipan mellan nav-elementen genom att lägga till en margin till höger */
+	margin-left: 20%;
+    }
+    .button-container {
+	flex-basis: 38%; /* Justera bredden av rektanglarna för att passa två per rad */
+	margin-bottom: 20px;
+    }
+    .button {
+	text-decoration: none;
+	color: #333;
+	font-weight: bold;
+	background-color: #fff;
+	padding: 2rem 1rem;
+	display: block;
+	border: 3px solid #333;
+	border-radius: 3rem;
+    }
+    main {
+	padding: 20px;
+    }
+    section {
+	margin-bottom: 20px;
+    }
+    @media only screen and (max-width: 768px){
+	.top-left{
+		font-size: 1em;
+	}
+	.top-right{
+		font-size: 0.75em;
+	}
+		
+	header{
+		font-size: 1em;
+	}
+    }
+    @media print {
+	body {
+		background-image: none; 
+		color: #000; 
+	}
+	header{
+		font-size: 2em;
+		margin-top: 3rem;
+	}
+	.top-left{
+		font-size: 1em;
+	}
+	.top-right{
+		font-size: 0.5em;
+	}
+}

@@ -1,0 +1,30 @@
+body {
+	background-color: #333;
+}
+nav {
+	display: flex;
+	flex-direction: row;
+	justify-content:space-around;
+	padding: 1% 10%;
+	text-align: center;
+    }
+    .button {
+	text-decoration: none;
+	color: #333;
+	font-weight: bold;
+	background-color: #fff;
+	justify-content: center;
+	padding: 10% 30%;
+	display: flex;
+	border: 3px solid #333;
+	border-radius: 80px;
+    }
+    .video{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    }
+    .tabell{
+	display: flex;
+	justify-content: center;
+}
