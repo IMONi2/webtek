@@ -7,11 +7,11 @@
     <meta name='description' content = "Webbsida for dallas Restaurang">
     <title>Dallas Restaurang</title>
     <link rel="stylesheet" href="menypizza.css">
-    <script src = "scroll.js"></script>
+    <script src = "link.js"></script>
 </head>
 
 <body>
-    <header>
+    <header id =pizza>
 	<div class="button-container">
 		<a href="index.html" class="button">Startsida</a>
 	</div>
@@ -83,11 +83,10 @@
 			<span class="description">Tomatsås, ost, skinka</span></a>
 	</div>
     </nav>
-    <script src="scroll.js"></script>
     <div class="sidemenu">
         <ul>
-            <li><a href="#">Pizzor</a></li>
-            <li><a href="#">Grupp 1</a></li>
+            <li><a href="#" id = "pizzalink">Pizzor</a></li>
+            <li><a href="#" id = "pizzalink">Grupp 1</a></li>
             <li><a href="#">Grupp 2</a></li>
 	    <li><a href="#">Grupp 3</a></li>
 	    <li><a href="#">Grupp 4</a></li>
@@ -98,12 +97,12 @@
         <ul>
             <li><a href="#">Hamburgare</a></li>
             <li><a href="#">Kebab</a></li>
-            <li><a href="#" id ="scrollDown">Pasta</a></li>
-	    <li><a href="#">Varmrätter</a></li>
+            <li><a href="#" id ="pastalink">Pasta</a></li>
+	    <li><a href="#" id = varmlink>Varmrätter</a></li>
 	    <li><a href="#">Sallader</a></li>
         </ul>
     </div>
-<header>
+<header id="pasta">
 	<h2>Pastarätter</h2>
 </header>
 <nav>
@@ -125,7 +124,7 @@
 			<span class="description">Oxfilé, lök, paprika, champinjoner, gräddsås</span></a>
 	</div>
     </nav>
-<header>
+<header id  = "varm">
 	<h2>Varmrätter</h2>
 	<div class="line"></div>
 </header>

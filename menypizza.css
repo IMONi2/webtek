@@ -102,7 +102,7 @@ body {
 	height: auto; 
 	background-color: #f4f4f4;
 	position: fixed;
-	top: 15rem;
+	top: 12vw;
 	left: 10%;
 	padding: 1%;
 	border: 2px solid #333;
@@ -135,7 +135,7 @@ body {
 	height: auto; 
 	background-color: #f4f4f4;
 	position: fixed;
-	top: 35rem; 
+	top: 30vw; 
 	left: 10%;
 	padding: 1%;
 	border: 2px solid #333;

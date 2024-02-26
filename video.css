@@ -28,3 +28,9 @@ nav {
 	display: flex;
 	justify-content: center;
 }
+#animatedDiv {
+	width: 100px;
+	height: 30px;
+	background-color: red; /* Ange den önskade bakgrundsfärgen här */
+	position: relative; /* Om det är relevant för din layout */
+    }

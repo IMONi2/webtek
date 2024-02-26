@@ -8,6 +8,9 @@
     <title>Dallas Restaurang</title>
     <link rel="stylesheet" href="omoss.css">
     <script src = "randomimage.js"></script>
+    <script src = "imgChange.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src= "fade.js"></script>
 </head>
 
 <body>
@@ -32,10 +35,10 @@
 	<p>Det är bäst för dig att du provar.</p>
     </div>
     <img id ="img1" alt="">
-    <img id="img2" src="pizza.jpg" alt="">
-    <img id="img3" src="deg.jpg" alt="">
+    <img id ="img2" src="pizza.jpg" alt="">
+    <img id ="img3" src="deg.jpg" alt="">
 	
-    <div class ="formular">
+    <div class ="formular" id ="form">
 	<h2>Frågor?<br>Kontakta oss!</h2>
     <form action="https://formspree.io/random@email.com" method="POST">
         <label for="name">Namn:</label><br>
