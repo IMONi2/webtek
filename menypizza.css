@@ -58,7 +58,7 @@ body {
 	display: flex;
 	flex-direction: row;
 	justify-content:space-around;
-	padding:  1.5em 1rem;
+	padding:  1.5rem 1rem;
 	text-align: center;
     }
     nav: {
