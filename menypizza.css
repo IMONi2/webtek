@@ -97,13 +97,14 @@ body {
     section {
 	margin-bottom: 2rem;
     }
+
     .sidemenu {
 	width: 10%;
 	height: auto; 
 	background-color: #f4f4f4;
 	position: fixed;
 	top: 12vw;
-	left: 10%;
+	left: 4vw;
 	padding: 1%;
 	border: 2px solid #333;
 	border-radius: 20px;
@@ -136,7 +137,7 @@ body {
 	background-color: #f4f4f4;
 	position: fixed;
 	top: 30vw; 
-	left: 10%;
+	left: 4vw;
 	padding: 1%;
 	border: 2px solid #333;
 	border-radius: 20px;
