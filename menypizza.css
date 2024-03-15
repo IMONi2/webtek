@@ -61,7 +61,7 @@ body {
 	padding:  1.5em 1rem;
 	text-align: center;
     }
-    nav:not(:last-child) {
+    nav: {
 	margin-right: 20%;
 	margin-left: 20%;
     }
