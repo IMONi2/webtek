@@ -41,7 +41,7 @@ body {
 	text-align: center;
 	margin-top: 0%;
     }
-    nav:not(:last-child) {
+    nav: {
 	margin-right: 20%;
 	margin-left: 20%;
     }
