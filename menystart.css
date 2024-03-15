@@ -61,7 +61,7 @@ body {
 	padding: 0.75rem 0.5rem;
 	text-align: center;
     }
-    nav:not(:last-child) {
+    nav:{
 	margin-right: 20%; /* Justera glipan mellan nav-elementen genom att lägga till en margin till höger */
 	margin-left: 20%;
     }
